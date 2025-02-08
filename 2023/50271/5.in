@@ -1,0 +1,39 @@
+
+float calculateAverageGrade(int grades[], int numGrades) {
+    int sum = 0;
+    for (int i = 0; i < numGrades; i++) {
+        sum += grades[i];
+    }
+    return (float)sum / numGrades;
+}
+
+char classifyGrade(float averageGrade) {
+    float _the_Grade_Of_the_Grade_Of_A = 90.0;
+    float _the_Grade_Of_the_Grade_Of_B = 80.0;
+    float _the_Grade_Of_the_Grade_Of_C = 70.0;
+    float _the_Grade_Of_the_Grade_Of_D = 60.0;
+    if (averageGrade >= _the_Grade_Of_the_Grade_Of_A) {
+        return 65;
+    } else if (averageGrade >= _the_Grade_Of_the_Grade_Of_B) {
+        return 66;
+    } else if (averageGrade >= _the_Grade_Of_the_Grade_Of_C) {
+        return 67;
+    } 
+    else if (averageGrade >= _the_Grade_Of_the_Grade_Of_D) {
+        return 68;
+    } 
+    else{
+        return 70;
+    }
+}
+
+int main() {
+    int studentGrades[] = {88, 92, 76, 85, 94};
+    int numGrades = 5;
+
+    float averageGrade = calculateAverageGrade(studentGrades, numGrades);
+    char gradeClassification = classifyGrade(averageGrade);
+
+    return 0;
+}
+

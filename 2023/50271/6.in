@@ -1,0 +1,53 @@
+int sum(int arrA[], int lengthA) {
+    int result = 0;
+    int _i = 0;
+    while(_i < lengthA)
+    {
+        result += arrA[_i];
+        _i++;
+    }
+    return result;
+}
+
+int average(int _arr[], int _length) {
+    return sum(_arr, _length) / _length;
+}
+
+int maximum(int arr[], int length) {
+    int max = arr[0];
+    int iii = 1;
+    while (iii < length) {
+        if (arr[iii] > max) {
+            max = arr[iii];
+        }
+        iii++;
+    }
+    return max;
+}
+
+int minimum(int Arr[], int Length) {
+    int min = Arr[0];
+    int i = 1;
+    while (i < Length) {
+        if (Arr[i] < min) {
+            min = Arr[i];
+        }
+        i++;
+    }
+    return min;
+}
+
+int main() {
+    char AAABBBCCCaaabbbccc111222;
+    char AAABBBCCCaaabbbccc111223;
+    int data[] = {10, 20, 30, 40, 50, 60};
+    int array_length = 6;
+
+    int sum_result = sum(data, array_length);
+    int avg_result = average(data, array_length);
+    int max_result = maximum(data, array_length);
+    int min_result; 
+    min_result=minimum(data, array_length);
+
+    return 0;
+}

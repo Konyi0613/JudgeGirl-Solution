@@ -1,0 +1,44 @@
+float add(float x, float y) {
+    return x + y;
+}
+
+float subtract(float x, float y) {
+    return x - y;
+}
+
+float multiply(float x, float y) {
+    return x * y;
+}
+
+float divide(float x, float y) {
+    if (y == 0) {
+        return 0;
+    }
+    return x / y;
+}
+
+int main() {
+    char operator = 0;
+    float num1 = 10.5;
+    float num2 = 5.2;
+    float result;
+
+    switch (operator) {
+        case 0:
+            result = add(num1, num2);
+            break;
+        case 1:
+            result = subtract( num1, num2);
+            break;
+        case 2:
+            result = multiply(num1,num2);
+            break;
+        case 3:
+            result=divide(num1, num2);
+            break;
+    }
+
+    float max = (num1 > num2) ? num1 : num2;
+
+    return 0;
+}

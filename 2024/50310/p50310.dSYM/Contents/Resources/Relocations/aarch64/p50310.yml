@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/konyi/Documents/coding/C/jg/50310/p50310'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _time_previous, symObjAddr: 0x0, symBinAddr: 0x100002FC4, symSize: 0x8C }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _time_previous, symObjAddr: 0x0, symBinAddr: 0x100002FC4, symSize: 0x8C }
+  - { offsetInCU: 0x77, offset: 0x77, size: 0x8, addend: 0x0, symName: _overlapse, symObjAddr: 0x8C, symBinAddr: 0x100003050, symSize: 0x128 }
+  - { offsetInCU: 0xAF, offset: 0xAF, size: 0x8, addend: 0x0, symName: _count_length, symObjAddr: 0x1B4, symBinAddr: 0x100003178, symSize: 0x40 }
+  - { offsetInCU: 0xE5, offset: 0xE5, size: 0x8, addend: 0x0, symName: _find_sol, symObjAddr: 0x1F4, symBinAddr: 0x1000031B8, symSize: 0x670 }
+  - { offsetInCU: 0x2BA, offset: 0x2BA, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x864, symBinAddr: 0x100003828, symSize: 0x6C0 }
+...

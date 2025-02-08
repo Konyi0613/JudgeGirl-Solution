@@ -1,0 +1,15 @@
+float f_add( float fx, float fy) {
+    return fx+fy;
+}
+float f_sub( float fa, float fb) {
+    return fa-fb;
+}
+int main() {
+    float this_Is_A_Decimal_Number_1 = 1.0;
+    float this_Is_A_Decimal_Number_2 = 2.0;
+    float This_Is_A_Decimal_Number_;
+    This_Is_A_Decimal_Number_ = this_Is_A_Decimal_Number_1;
+    this_Is_A_Decimal_Number_1 = f_add(1.0,1.0);
+    this_Is_A_Decimal_Number_2 = f_sub( this_Is_A_Decimal_Number_1,This_Is_A_Decimal_Number_ );
+    return 0;
+}

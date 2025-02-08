@@ -1,0 +1,12 @@
+int main()
+{
+    int abc;
+    int ABC = 1;
+    int aBc = 2;
+    float _abc;
+    char def;
+
+    if(abc>0)
+        abc=0;
+    abc=ABC*aBc;
+}

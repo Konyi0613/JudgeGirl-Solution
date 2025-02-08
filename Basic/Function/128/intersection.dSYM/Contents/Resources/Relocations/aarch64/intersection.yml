@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/konyi/Documents/coding/C/jg/128/intersection'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _intersection, symObjAddr: 0x0, symBinAddr: 0x1000039E4, symSize: 0x430 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _intersection, symObjAddr: 0x0, symBinAddr: 0x1000039E4, symSize: 0x430 }
+  - { offsetInCU: 0x161, offset: 0x161, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x430, symBinAddr: 0x100003E14, symSize: 0x158 }
+...

@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/konyi/Documents/coding/C/jg/218/p218'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _C, symObjAddr: 0x0, symBinAddr: 0x100003DEC, symSize: 0xE8 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _C, symObjAddr: 0x0, symBinAddr: 0x100003DEC, symSize: 0xE8 }
+  - { offsetInCU: 0xBD, offset: 0xBD, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xE8, symBinAddr: 0x100003ED4, symSize: 0xAC }
+...

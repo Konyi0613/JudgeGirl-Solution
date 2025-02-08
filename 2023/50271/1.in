@@ -1,0 +1,17 @@
+int add ( int x, int y) {
+    return x + y;
+}
+int sub ( int a, int b) {
+    return a - b;
+}
+int main() {
+    int aaa = 5;
+    int AAA = 10;
+    int _111222333444555666777888x = 1;
+    int _111222333444555666777888y = 2;
+    int result;
+    result = add( _111222333444555666777888x, _111222333444555666777888y);
+    result += sub( _111222333444555666777888x, aaa);
+    result -= sub( AAA, aaa);
+    return 0;
+}

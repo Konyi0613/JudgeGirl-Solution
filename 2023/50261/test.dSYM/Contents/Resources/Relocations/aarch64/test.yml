@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/konyi/Documents/coding/C/jg/50261/test'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _dividePolynomial, symObjAddr: 0x0, symBinAddr: 0x1000039FC, symSize: 0x318 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _dividePolynomial, symObjAddr: 0x0, symBinAddr: 0x1000039FC, symSize: 0x318 }
+  - { offsetInCU: 0x171, offset: 0x171, size: 0x8, addend: 0x0, symName: _readPolynomial, symObjAddr: 0x318, symBinAddr: 0x100003D14, symSize: 0x94 }
+  - { offsetInCU: 0x1B1, offset: 0x1B1, size: 0x8, addend: 0x0, symName: _printPolynomial, symObjAddr: 0x3AC, symBinAddr: 0x100003DA8, symSize: 0xA4 }
+  - { offsetInCU: 0x1F1, offset: 0x1F1, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x450, symBinAddr: 0x100003E4C, symSize: 0x118 }
+...

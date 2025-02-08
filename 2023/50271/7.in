@@ -1,0 +1,39 @@
+
+float max(float fx, float fy) {
+    if (fx > fy)
+        return fx;
+    else return fy;
+}
+
+float min(float fa, float fb) {
+    if(fa>fb) return fb;
+    else return fa;
+}
+
+float equal(float _f1, float _f2) {
+    if(_f1 == _f2)  return _f1;
+    else
+        return 0.0;
+}
+
+int main() {
+    int operator = 2;
+    float numnumnumnumnumnumnumnum1 = 10.5;
+    float numnumnumnumnumnumnumnum2 = 5.2;
+    float result=numnumnumnumnumnumnumnum2*2;
+
+    switch (operator) {
+        case 0:
+            result = max(numnumnumnumnumnumnumnum1, numnumnumnumnumnumnumnum2);
+            break;
+        case 1:
+            result = min(numnumnumnumnumnumnumnum1, numnumnumnumnumnumnumnum2);
+            break;
+        case 2:
+            result = equal(numnumnumnumnumnumnumnum1, numnumnumnumnumnumnumnum2);
+            break;
+    }
+
+    return 0;
+}
+

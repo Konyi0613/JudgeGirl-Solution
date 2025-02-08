@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/konyi/Documents/coding/C/jg/50/p50'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _calculate_area, symObjAddr: 0x0, symBinAddr: 0x1000036B0, symSize: 0x38 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _calculate_area, symObjAddr: 0x0, symBinAddr: 0x1000036B0, symSize: 0x38 }
+  - { offsetInCU: 0x93, offset: 0x93, size: 0x8, addend: 0x0, symName: _covered_area, symObjAddr: 0x38, symBinAddr: 0x1000036E8, symSize: 0x520 }
+  - { offsetInCU: 0x1A9, offset: 0x1A9, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x558, symBinAddr: 0x100003C08, symSize: 0x368 }
+...

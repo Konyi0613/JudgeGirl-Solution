@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/konyi/Documents/coding/C/jg/50234/p50234'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _GetLargest, symObjAddr: 0x0, symBinAddr: 0x1000037F4, symSize: 0x104 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _GetLargest, symObjAddr: 0x0, symBinAddr: 0x1000037F4, symSize: 0x104 }
+  - { offsetInCU: 0xBD, offset: 0xBD, size: 0x8, addend: 0x0, symName: _MaxHeapify, symObjAddr: 0x104, symBinAddr: 0x1000038F8, symSize: 0xB8 }
+  - { offsetInCU: 0x135, offset: 0x135, size: 0x8, addend: 0x0, symName: _BuildMaxHeap, symObjAddr: 0x1BC, symBinAddr: 0x1000039B0, symSize: 0x70 }
+  - { offsetInCU: 0x191, offset: 0x191, size: 0x8, addend: 0x0, symName: _HeapExtractMax, symObjAddr: 0x22C, symBinAddr: 0x100003A20, symSize: 0xAC }
+  - { offsetInCU: 0x1E3, offset: 0x1E3, size: 0x8, addend: 0x0, symName: _MaxHeapInsert, symObjAddr: 0x2D8, symBinAddr: 0x100003ACC, symSize: 0x100 }
+  - { offsetInCU: 0x25B, offset: 0x25B, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x3D8, symBinAddr: 0x100003BCC, symSize: 0x370 }
+...
