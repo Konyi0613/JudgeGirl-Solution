@@ -1,0 +1,12 @@
+#include <stdint.h>
+#include <stdio.h>
+
+#define ARRAYSIZE 1000
+
+typedef struct giantUnsignedInt
+{
+    uint64_t array[ARRAYSIZE];
+    int n;
+} GiantUnsignedInt;
+
+int numBitChanges(GiantUnsignedInt *giantNum);
